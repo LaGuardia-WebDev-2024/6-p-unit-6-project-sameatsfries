@@ -2,6 +2,18 @@
 void setup() {
     size(400, 400); 
     background(255,255,255,100);
+    
+    // rectangle
+    fill(255, 0, 0);
+    rect(50, 10, 10, 100);
+    
+    //ellipse
+    fill(0, 255, 0);
+    ellipse(50, 200, 45, 100);
+    
+    //triangle
+    fill(0, 0, 255);
+    triangle(20, 90, 39, 40);
 }
 
 
